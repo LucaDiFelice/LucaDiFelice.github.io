@@ -94,6 +94,42 @@ nav a.active{
         border-radius: 0.5rem;
         border-bottom: 0.5s solid black;
     }
+}
 
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
 
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: rgb(217, 245, 251);
+}
+
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span{
+    color: black
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    width: 32vh;
 }

@@ -332,6 +332,19 @@ section {
     padding: 26px 24px;
 }
 
+.info-card {
+    overflow: hidden;
+}
+
+.experience-image {
+    width: calc(100% + 48px);
+    height: 180px;
+    margin: -26px -24px 22px;
+    object-fit: contain;
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+}
+
 .card-label {
     display: inline-flex;
     margin-bottom: 14px;
@@ -367,7 +380,7 @@ section {
 }
 
 .project-image {
-    width: calc(100% + 4px);
+    width: calc(100% + 48px);
     height: 220px;
     margin: -26px -24px 22px;
     object-fit: cover;

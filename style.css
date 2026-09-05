@@ -367,7 +367,7 @@ section {
 }
 
 .project-image {
-    width: calc(100% + 48px);
+    width: calc(100% + 4px);
     height: 220px;
     margin: -26px -24px 22px;
     object-fit: cover;

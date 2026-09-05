@@ -321,6 +321,7 @@ section {
 }
 
 .timeline-grid,
+.activities-grid,
 .project-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -470,6 +471,7 @@ section {
 @media (max-width: 900px) {
     .home,
     .timeline-grid,
+    .activities-grid,
     .project-grid {
         grid-template-columns: 1fr;
     }

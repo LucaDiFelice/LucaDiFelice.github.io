@@ -363,20 +363,23 @@ section {
 }
 
 .project-card {
-    min-height: 220px;
+    overflow: hidden;
 }
 
-.project-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 56px;
-    height: 56px;
-    border-radius: 16px;
-    background: linear-gradient(135deg, rgba(58, 123, 213, 0.12), rgba(125, 231, 216, 0.2));
-    color: var(--primary-dark);
-    font-size: 2.2rem;
-    margin-bottom: 16px;
+.project-image {
+    width: calc(100% + 48px);
+    height: 220px;
+    margin: -26px -24px 22px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--border);
+}
+
+.project-card .card-label {
+    margin-bottom: 14px;
+}
+
+.project-card h3 {
+    margin-top: 0;
 }
 
 .project-card p {
